@@ -1,0 +1,515 @@
+html {
+    background: #5797;
+    font-size: 16;
+    line-height: 1.5;
+    font-family: 'Dancing Script'; 
+    margin: 0;
+    padding: 0; 
+}
+
+.upper-menu{
+    width: 100%;
+    height: 50px;
+justify-content: center;
+}
+
+
+
+.dws-menu{
+    margin: 0;
+    padding: 0; 
+}
+
+    
+ul li{
+    list-style: none;
+}
+
+.ul-menu{
+
+    justify-content: center;
+    display: flex;
+    background: #134f;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.ul-menu li a{
+    position: relative;
+    display:block;
+    background: #133f;
+    text-align: center;
+    padding: 3px 0px 4px 0px;
+    font-family: 'roboto';
+    font-family: 'Marck Script', cursive;
+    margin: px;
+    color:cornflowerblue;
+    font-size: 28px;
+    text-decoration: none;
+    border: 1px solid #023d50;
+       transition: 0.4s ease;
+}
+
+
+.dws-menu > ul li{
+    position: relative;
+    min-width: 220px
+}
+
+.undermenu{
+   /* background: blue;*/
+    position: absolute;
+    left: -39px;
+    display: none;
+}
+
+
+
+.ul-menu li a:hover{
+    background: #023d50;
+    color: aqua;
+    box-shadow: 1px 1px 10px -1px aqua;
+    transition: 0.4s ease;
+    z-index: 1;
+}
+
+.ul-menu li:hover > ul{ /*делает список выпадающим*/
+    display: block;
+
+}
+
+
+
+
+.footer{
+    width: 100%;
+    height: 260px;
+    background: #034f;
+    color: white;
+    list-style: none;
+    
+}
+
+.container{
+    justify-content: center;
+    display: flex;
+}
+
+.row{
+    color:cornflowerblue;
+    width: 300px;
+    height: 200px;
+    padding: 30px 0px 30px 0px;
+    margin-right: 110px;
+    font-family:N;
+    font-size: 35px;
+    float: left;
+}
+
+.row-x{
+    width: 290px;
+    height: 200px;
+    padding: 40px 0px 0px 0px;
+    margin-right: 10px;
+    font-family:N;
+    font-size:25px;
+    float: left;
+}
+
+.footer-1{
+    font-size: 18px;
+    font-family: 'Roboto';
+}
+
+.profile{
+    color: aliceblue;
+    font-size: 18px;
+    font-family: 'Roboto'
+}
+
+.row a{
+    color: cornflowerblue;
+   
+}
+
+.row a:hover{
+    color:white;
+
+}
+
+.button{
+    font-weight: 700;
+    display: inline-block;
+    border-width: 2px;
+    border-color: white;
+    background: #034f;
+    color: white;
+    width: 270px;
+    height: 50px;
+    border-radius: 18px;
+    transition: 0.4s ease;
+}
+
+.button:hover{
+    color:#034f;
+    background: white;
+    transition: 0.4s ease;
+}
+/*стили горизонлального меню*/
+
+.row-3{
+    width: 500px;
+    height: 200px;
+    padding: 30px 0px 30px 0px;
+    margin-right: 0px    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.header {
+    background: #343c4e;/*if weak network*/
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  /*равномерное растягивание*/
+   
+    height: 100vh;
+    color: antiquewhite;
+    text-align: center;
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /*выравнивание по центру картинки*/
+}
+
+.header__title {
+    font-size: 86px;
+    line-height: 200px; /*высота строчки*/
+    margin-bottom: 100px; /*отступ следующего текста от низа строчки*/
+    margin-top: -100px /*подняли текст на 50 вверх*/
+}
+
+.header__slogan {
+    font-size: 40px
+}
+
+.header__arrow {
+    font-size: 48px;
+    position: absolute;
+    bottom: 30px;
+    left: 48%;
+    height: 60px;
+    width: 50px;
+}
+
+
+
+.container-2{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.container {
+    width: 1140px;
+    margin-right: auto;
+    margin-left: auto;   
+}
+
+
+.column {
+    align-content: center;
+    width: 300px;
+    margin-right: 110px;
+    float: left;
+}
+
+.column:last-child {
+    margin-right: 0px;
+}
+
+
+
+.portfolio-text {
+    margin: 5%;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.picture a:active{
+  color: aqua;  
+}
+
+
+
+.head--text a{
+   text-align: left;
+    font-size: 20px;
+    font-family: 'Exo 2', sans-serif; 
+    color: #034f;
+    margin-bottom: 20px; 
+    text-decoration: none;
+}
+.picture a:visited{
+    color:blue;
+}
+
+.head--text a:visited{
+    color: #034f;
+}
+
+.head--text a:hover{
+    transition: 0.1s ease;
+    font-size: 22px;
+    margin: 0px;
+}
+.other--text {
+    display: block;
+   text-align: left;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif; 
+
+}
+
+.luna-page{
+    margin-left: 50px;
+    height: 400px;
+    width: 400px;
+}
+
+.error-txt{
+    color: white;
+    
+}
+
+.error-main{
+    display: flex;
+}
+
+.error-msg ul li{
+
+    margin-left: 215px;
+    width: 100%;
+    padding: 10px 0px 10px 3px;
+    font-family: 'roboto';
+    font-size: 24px;
+    list-style: disc;
+}
+.picture{
+    display: block;
+    width: 300px;
+    height: 170px;
+    transition: 0.3s ease;
+    margin-bottom: 50px
+}
+
+.picture:hover{
+    box-shadow: 5px 7px 10px -5px;
+    transition: 0.3s ease;
+}
+/*
+font-family: 'Dancing Script, cursive;'
+*/
+
+
+/* error */
+.page{
+    background: #034f;
+    height: 100%;
+}
+
+
+.unfortunately-txt{
+    height: 200px;
+    /*border:5px red solid;*/
+    text-align: center;
+    color:white;
+    font-size: 50px;
+    z-index: -1;
+    margin-bottom: -80px;
+    padding-top: 100px;
+}
+
+.error-but{
+    width: 200px;
+    height: 50px;
+    border-radius: 17px;
+    font-family: "roboto";
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 50px;
+    margin-left: 450px;
+    border: 2px white solid;
+    background: #034f;
+    color: white;
+    transition: 0.2s ease;
+}
+
+.error-but a:visited{
+    color: gray;
+}
+
+.error-but:hover{
+    color: #034f;
+    background: white;
+    transition: 0.2s ease;
+
+}
+
+@media (max-width: 1160px) {
+    .header{
+        width: 100%;  
+    }
+    
+    .column{
+        width: 100%;  
+    margin: 0px;
+    }
+    .container{
+   width: 100%;
+    display: block;;
+}
+    
+    .picture{
+    display: block;
+    width: 90%;
+    height: 100%;
+    margin: 5%;
+    
+}
+
+.upper-menu{
+    height: 250px;
+}
+    
+   .ul-menu{
+
+    display: block;
+    background: #134f;
+    padding: 0px;
+    margin: 0px;
+    
+}
+ 
+   .undermenu{
+   /* background: blue;*/
+  width: 40%;
+    display: none;
+       z-index: 1
+}
+ 
+
+ .head--text{
+     text-align: center;
+
+}   
+ .other--text {
+   text-align: center;
+     padding: 5%;
+     margin-bottom: 10%;
+}   
+
+  
+.footer{
+  background: #5790
+
+}
+
+    
+    .row{
+width: 100%;
+    text-align: center;
+        margin-top: -7%;
+  
+        background: #134f;
+}
+    
+    
+    .button{
+    margin-top: -5%;
+    font-size: 65%;
+    }
+
+    .row-x{
+        width: 100%;
+        text-align: center;
+
+        margin-top: -8%;
+        background: #134f;
+        
+    }
+    .error-main{
+        display: block;
+        background: #034;
+    }
+    
+    .page{
+        width: 100%;
+    }
+    .unfortunately-txt{
+        width: 100%;
+        margin-bottom: 10px;
+        margin-top: -80px;
+    }
+    
+ .error-msg ul li{
+
+    margin-left: 10px;
+    width: 100%;
+    padding: 0px 0px 0px 10px;
+}
+    .error-but{
+    margin-left:30%;
+}
+
+    .luna-page{
+    margin-top: 20px;
+    margin-bottom: 55px;
+        max-width: 400px;
+        width: 70%;
+        height: auto;
+            
+    }
+    
+    .header__arrow {
+    bottom: -200px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
